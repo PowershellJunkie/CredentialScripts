@@ -1,3 +1,3 @@
-$plainpass = "Giveblood!"
+$plainpass = "<yourpasswordhere>"
 $Password = $plainpass | ConvertTo-SecureString -AsPlainText -Force
-New-LocalUser -Name "InsideUser" -Description "TBC Local user account" -Password $Password -AccountNeverExpires -UserMayNotChangePassword
+New-LocalUser -Name "YourInsideUser" -Description "YourLocalUserAccount" -Password $Password -AccountNeverExpires -UserMayNotChangePassword
